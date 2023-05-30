@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" 
+    content="IE=edge">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <!-- styel link -->
+    <link 
+    rel="stylesheet" 
+    href="styel.css">
+
+    <!-- google font link -->
+    <link 
+    rel="preconnect" 
+    href="https://fonts.googleapis.com">
+    <link 
+    rel="preconnect" 
+    href="https://fonts.gstatic.com" 
+    crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Arvo&family=Lobster&family=Rubik+Wet+Paint&display=swap" 
+    rel="stylesheet">
+ 
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
+    rel="stylesheet">
+
+    
+    <!-- fontawsem link -->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    
+    <!-- icon link -->
+    <link 
+    rel="Shortcut Icon" 
+    href="img/x_o.png" 
+    type="image/png">
+    <title> X , O game !</title>
+</head>
+
+<body>
+    <!-- link -> /* font-family: 'Rubik Wet Paint', cursive */ -->
+
+    <!--start nav part -->
+    <nav class="navbar">
+        <a href="#home" class="logo"><i class="fa-solid fa-house-chimney"></i></a>
+        <ul>
+            <li><a href="#game">game</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <!-- end nav part -->
+
+    <!-- cat welcome img -->
+    <div class="welimg">
+        <img src="img/undraw_welcome_cats_thqn.svg" alt="welcomw img !!">
+    </div>
+
+    <!-- start home part -->
+    <div class="home" id="home">
+        <img src="img/myfhoto.png" alt="myphoto" class="myimg">
+        <label class="det">
+            <h2>hi my name is <span>haider</span></h2>
+            <h2>i'm <span>IT profitinal</span> <br>
+                and <span> web designer</span></h2>
+            <form>
+                <li>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a> 
+                    <p>tik tok</p>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <p>facebook</p>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <p>telegram</p>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <p>phone</p>
+                </li>
+            </form>
+        </label>
+        <details>
+            <summary>information</summary>
+            <p>
+                hi agene ! <br>
+                this site was maded in <span> <i class="fa-solid fa-arrow-right"></i> 2023 / 5 / 29</span> <br>
+                this site is provide asimple game <a href="#game">( x , o game )</a> to enjoe with your frends with asmple theme of blue and black, 
+                you can contact me in last partion to get your advise to devlobe the site !! 
+
+            </p>
+        </details>
+    </div>
+    <!-- end home part -->
+
+
+    <!-- start game part -->
+    <div class="game" id="game">
+        <h1 id="plyertext">X  O game !</h1>
+        <div id="gamebord">
+            <div class="row">
+                <div class="box" id="0"></div>
+                <div class="box" id="1"></div>
+                <div class="box" id="2"></div>
+            </div>
+            <div class="row">
+                <div class="box" id="3"></div>
+                <div class="box" id="4"></div>
+                <div class="box" id="5"></div>
+            </div>
+            <div class="row">
+                <div class="box" id="6"></div>
+                <div class="box" id="7"></div>
+                <div class="box" id="8"></div>
+            </div>
+        </div>
+        <button id="restart">restart</button>
+    </div>
+    <!-- end game part -->
+
+
+    <!-- start contact part -->
+    <div id="contact" class="con">
+        <div class="header">
+            <label for="infor" class="log_head_label">contact</label>
+            <img src="img/undraw_access_account_re_8spm.svg" alt="login img" class="log_head_img">
+        </div>
+        <div class="content">
+            <p id="infor">hello <span>!!</span> <br>
+                in this section you can send me amessge to devlobe the site <span>!!</span><br>
+                mack sure to inclode your email address to get the resboun <i class="fa-solid fa-face-smile-wink"></i>
+            </p>
+            <div class="item">
+                <div class="tem1">
+                    <label for="email">email :</label>
+                    <input id="email"type="email" required placeholder="inter your email here : ">
+                </div>
+                <div class="tem2">
+                    <label for="messge">messge :</label>
+                    <textarea name="mes" id="messge" cols="1" rows="5" placeholder="inter your messge here :"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn">submit</button>
+        </div>
+    </div>
+    <!-- end contact part -->
+
+    <script src="java.js"></script>
+</body>
+</html>
